@@ -22,3 +22,8 @@ sudo apt update -y
 sudo apt install -y grafana
 
 echo "Grafana installation complete!"
+
+# Start servers
+sudo systemctl start grafana-server
+sudos ystemctl enable grafana-server
+
